@@ -1,3 +1,45 @@
+# [Lab Experiments](https://github.com/ZeroDiscord/AI-ML/tree/master/lab_4-6)
+
+## Lab 4-6: Data Import, EDA, and Preprocessing
+
+### Overview  
+This repository covers three experiments:  
+1. **Experiment 4**: Import/export data and display basic statistics.  
+2. **Experiment 5**: Perform Exploratory Data Analysis (EDA).  
+3. **Experiment 6**: Handle missing values, outliers, and preprocess data.  
+
+### File Structure 
+```
+lab_4-6/
+│
+├── data/            # Directory for input datasets
+│   └── sample.csv   # Placeholder for the dataset used in experiments
+│
+├── helpers/         # Contains scripts for individual experiments
+│   ├── exp4_impexp.py   # Code for Experiment 4
+│   ├── exp5_eda.py      # Code for Experiment 5
+│   └── exp6_preprocess.py   # Code for Experiment 6
+│
+├── output/          # Stores exported results, plots, and preprocessed data
+│   └── ...
+│
+└── driver.py        # Main driver script to run experiments
+```
+
+### Requirements  
+- Python 3.x  
+- Libraries: `pandas`, `matplotlib`, `seaborn`, `scipy`  
+
+### How to Run  
+1. Place the dataset in the `data/` directory OR simply run the driver script to import the sample dataset. 
+2. Execute the main script:  
+   ```bash
+   python driver.py
+   ```
+3. Outputs for evaluation are present in the `output/` directory.
+
+
+<br><br><br>
 
 # [Project](https://github.com/ZeroDiscord/AI-ML/tree/master/project)
 
